@@ -1,0 +1,58 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url("images/cover_pouch.jpg")no-repeat fixed;
+        background-size: cover;
+
+    
+}
+
+header {
+    
+    background-color: #B55829;
+    height: 150px;
+}
+
+.ban{
+    position: absolute;
+   
+}
+
+#log {
+    display: block;
+    margin-left: 200px;
+    border: 5px solid white;
+    border-radius: 200px;
+    background-color: white;
+
+}
+
+#nav {
+    margin-top: 80px;
+    float: right;
+    padding-right: 150px;
+    background-color: #0D3465;
+    color: white;
+    
+}
+
+.side ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+
+.side li {
+    padding: 50px 10px;
+}
+
+#main {
+    margin-top: 80px;
+    
+
+
+    
+
+}
