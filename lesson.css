@@ -3,15 +3,14 @@ html, body{
     padding: 0;
     box-sizing: border-box;
     background: url("images/cover_pouch.jpg")no-repeat fixed;
-        background-size: cover;
+    background-size: cover;
 
     
 }
 
-header {
-    
+header {    
     background-color: #B55829;
-    height: 150px;
+    height: 160px;
 }
 
 .ban{
@@ -30,17 +29,17 @@ header {
 
 #nav {
     margin-top: 80px;
-    float: right;
-    padding-right: 150px;
+    float: left;
+    padding-left: 50px;
     background-color: #0D3465;
     color: white;
+    text-align: right;
     
 }
 
 .side ul {
     list-style-type: none;
-    padding-left: 0px;
-    margin-left: 0px;
+    
 
 }
 
@@ -49,10 +48,4 @@ header {
 }
 
 #main {
-    margin-top: 80px;
-    
-
-
-    
-
-}
+ 
