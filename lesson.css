@@ -11,15 +11,16 @@ html, body{
 
 header {    
     background-color: #B55829;
-    height: 150px;
+    height: 100px;
     width: 100%;
 }
 
 
 #log {
     display: block;
-    margin-left: 200px;
+    margin-left: 300px;
     border: 5px solid white;
+    box-shadow: 5px 5px 20px white;
     border-radius: 200px;
     background-color: white;
 
