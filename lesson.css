@@ -4,7 +4,7 @@ html, body{
     box-sizing: border-box;
     background: url("images/cover_pouch.jpg")no-repeat fixed;
     background-size: cover;
-    font-family: 'Chau Philomene One', sans-serif;
+    font-family: 'Asap', sans-serif;
 
     
 }
@@ -57,7 +57,7 @@ header {
 #main {
     float: left;
     width: 50%;
-    margin: 100px 50px 100px 50px;    
+    margin: 100px 0px 100px 50px;    
     font-size: 2.2em;
 
 }
