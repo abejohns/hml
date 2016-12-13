@@ -11,14 +11,14 @@ html, body{
 
 header {    
     background-color: #B55829;
-    height: 100px;
+    height: 130px;
     width: 100%;
 }
 
 
 #log {
     display: block;
-    margin-left: 300px;
+    margin-left: 400px;
     border: 5px solid white;
     box-shadow: 5px 5px 20px white;
     border-radius: 200px;
@@ -58,7 +58,7 @@ header {
     float: left;
     width: 50%;
     margin: 100px 50px 100px 50px;    
-    font-size: 2em;
+    font-size: 2.2em;
 
 }
 
