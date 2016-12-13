@@ -4,19 +4,16 @@ html, body{
     box-sizing: border-box;
     background: url("images/cover_pouch.jpg")no-repeat fixed;
     background-size: cover;
+    font-family: 'Chau Philomene One', sans-serif;
 
     
 }
 
 header {    
     background-color: #B55829;
-    height: 160px;
+    height: 150px;
 }
 
-.ban{
-    position: absolute;
-   
-}
 
 #log {
     display: block;
@@ -27,25 +24,66 @@ header {
 
 }
 
-#nav {
-    margin-top: 80px;
-    float: left;
-    padding-left: 50px;
-    background-color: #0D3465;
+.container {    
+    background-color: rgb(0,0,128);
+    margin-top: 50px;
     color: white;
-    text-align: right;
+    border: 2px solid ;
+    box-shadow: 5px 5px 20px white;
+ }
+
+#side, #main {
+    float: left;  
+    color: white;
+    text-align: left;
     
+
 }
 
-.side ul {
+#side {
+    width: 10%;
+    font-size: 1.5em;
+
+
+}
+
+#side ul {
     list-style-type: none;
-    
-
+    padding: 0;
 }
 
-.side li {
-    padding: 50px 10px;
+#side li {
+
+    margin: 80px 0px;
+    
 }
 
 #main {
- 
+    width: 90%;
+    margin: 50px 0px;
+    
+    font-size: 1.5em;
+}
+
+#main p{
+    margin-top: 50px;
+   
+}
+#support {
+    clear: both;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.pic {
+    border: 2px solid black;
+    border-radius: 300px;
+    background-color: white;
+    padding: 20px;
+    margin: 0px 20px;
+
+}    
+
+
