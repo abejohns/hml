@@ -1,0 +1,119 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url("images/cover_pouch.jpg")no-repeat fixed;
+    background-size: cover;
+    font-family: 'Arvo', serif;
+
+    
+}
+
+header {    
+    background-color: #B55829;
+    height: 130px;
+    width: 100%;
+}
+
+
+#log {
+    display: block;
+    margin-left: 400px;
+    border: 5px solid white;
+    box-shadow: 5px 5px 20px white;
+    border-radius: 200px;
+    background-color: white;
+
+}
+
+.container {    
+    background-color: rgba(192,192,192,0.6);
+    margin-top: 100px;
+    color: black;
+    border: 2px solid none;
+    box-shadow: 5px 5px 20px white;
+    padding: 0;
+
+ }
+
+#side {
+    float: right;
+    font-size: 1.2em;
+    margin: 10px;
+
+
+}
+
+#side ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#side li {
+    margin: 0px 10px;
+    display: inline;
+    
+}
+
+#main {
+    float: left;
+    width: 50%;
+    margin: 100px 0px 100px 50px;    
+    font-size: 2em;
+    
+    color: black;
+
+}
+
+#main p{
+    margin-top: 30px;
+   
+}
+#support {
+    margin: 100px 0px 100px 0px;
+    float: left;
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    border: 2px solid black;
+}
+
+.pic {
+    border: 2px solid black;
+    border-radius: 300px;
+    background-color: white;
+    padding: 30px;
+    margin: 20px 20px;
+
+}    
+
+#cont{
+    margin-top: 20px;
+    color: white;
+}
+
+#cont ul {
+    list-style-type: none;
+    text-align: right;
+    font-size: 1.5em;
+    padding: 10px
+   
+
+}
+
+#support, #cont {
+    background-color: #0D3364;
+}
+
+
+
+#author {
+    border: 2px solid black;
+    width: 100%;
+    margin: 0;
+    height: 200px;
+    clear: both;
+    text-align: right;
+    background-color: rgb(0,0,0);
+    color: white;
+}
