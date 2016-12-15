@@ -1,0 +1,31 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+header {    
+    background-color: #B55829;
+    height: 130px;
+    width: 100%;
+}
+
+.ban {
+    width: 50%;
+    margin: auto;
+}
+
+#log {
+    display: block;
+    border: 5px solid white;
+    box-shadow: 5px 5px 20px white;
+    border-radius: 200px;
+    background-color: white;
+
+}
+
+.container {
+	border: 2px solid blue;
+}

@@ -15,10 +15,12 @@ header {
     width: 100%;
 }
 
-
+.ban {
+    width: 50%;
+    margin: auto;
+}
 #log {
     display: block;
-    margin-left: 400px;
     border: 5px solid white;
     box-shadow: 5px 5px 20px white;
     border-radius: 200px;
