@@ -2,6 +2,8 @@ html, body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: url("images/cover_pouch.jpg")no-repeat fixed;
+    background-size: cover;
 
 }
 
@@ -27,5 +29,12 @@ header {
 }
 
 .container {
-	border: 2px solid blue;
+	/*border: 2px solid blue;*/
+
+}
+
+.enlarge:hover {
+    transform: scale(2,2);
+    transform-origin: left,bottom;
+    z-index: 20;
 }
