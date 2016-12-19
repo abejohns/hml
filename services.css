@@ -21,6 +21,9 @@ main h1 {
     margin:  30px 50px;
     font-size: 1.3em;
 }
+ #inner .row {
+        margin: 10px;
+}
 
 .container .navbar {
     background-color: white;
@@ -32,9 +35,7 @@ main h1 {
         margin: 10px;
     }
 
-    #inner .row {
-        margin: 10px;
-    }
+   
     #inner .navbar {
         font-size: 0.9em;
     }
