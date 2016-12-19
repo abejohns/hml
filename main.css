@@ -4,90 +4,28 @@ html, body{
     box-sizing: border-box;
     background: url("images/cover_pouch.jpg")no-repeat fixed;
     background-size: cover;
-    font-family: 'Arvo', serif;
-
+    font-family: 'Eczar', serif;
     
 }
 
-header {    
-    background-color: #B55829;
+/************brand*****************/
+.navbar {
     height: 130px;
-    width: 100%;
+    background-color: #1A3164;
 }
-
-.ban {
-    width: 50%;
-    margin: auto;
+.navbar-header {
+    margin: 0px 20px !important;
 }
-#log {
-    display: block;
+.navbar-brand {
+    padding: 0px;
+}
+.log {    
     border: 5px solid white;
-    box-shadow: 5px 5px 20px white;
     border-radius: 200px;
     background-color: white;
-
-}
-
-.container {    
-    background-color: rgba(192,192,192,0.6);
-    margin-top: 100px;
-    color: black;
-    border: 2px solid none;
-    box-shadow: 5px 5px 20px white;
-    padding: 0;
-
- }
-
-#side {
-    float: right;
-    font-size: 1.2em;
-    margin: 10px;
-
-
-}
-
-#side ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#side li {
-    margin: 0px 10px;
-    display: inline;
+    height: 130px;
     
 }
-
-#main {
-    float: left;
-    width: 50%;
-    margin: 100px 0px 100px 50px;    
-    font-size: 2em;
-    
-    color: black;
-
-}
-
-#main p{
-    margin-top: 30px;
-   
-}
-#support {
-    margin: 100px 0px 100px 0px;
-    float: left;
-    color: black;
-    text-align: center;
-    font-size: 1.5em;
-    border: 2px solid black;
-}
-
-.pic {
-    border: 2px solid black;
-    border-radius: 300px;
-    background-color: white;
-    padding: 30px;
-    margin: 20px 20px;
-
-}    
 
 #cont{
     margin-top: 20px;
@@ -98,24 +36,161 @@ header {
     list-style-type: none;
     text-align: right;
     font-size: 1.5em;
-    padding: 10px
+    padding: 10px;
+}
+
+/*********************************/
+
+.container {
+        
+    background-color: rgba(192,192,192,0.5);
+    margin: 100px auto;
+    color: black;
+    border: 2px solid none;
+    box-shadow: 5px 5px 20px white;
+    padding: 0;
+    
+
+
+ }
+
+/*****nav********/
+.container .navbar {
+    background-color: rgba(192,192,192,0.2);
+    border: none;
+}
+
+
+
+/*****main************/
+
+#main {
+    clear: both;
+    margin: 100px 50px;    
+    font-size: 2em;
+    color: black;
+
+}
+
+#main p{
+    margin-top: 30px;
    
+}
+
+/****support*****/
+#support{
+    
+    padding: 50px;
+    margin: 50px auto;
 
 }
 
-#support, #cont {
-    background-color: #0D3364;
+.pic {
+
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;    
+
 }
 
+.pic img {
+    width: 100%;
+}
 
+/****footer****/
 
 #author {
-    border: 2px solid black;
+    
     width: 100%;
-    margin: 0;
-    height: 200px;
-    clear: both;
+    margin: 0px;
+    padding: 0 10px;
+    height: 90px;
     text-align: right;
     background-color: rgb(0,0,0);
     color: white;
+}
+
+/******mobile display*****/
+@media (min-width: 320px)  and (max-width: 567px) {
+
+    
+    header .navbar {
+        height: 70px;
+    }
+
+    header .container-fluid {
+        padding: 0 !important;
+    }
+    .log {
+        height: 70px;
+    }
+    #cont {
+        margin-top: 10px;
+    }
+    #cont li{
+        font-size: 0.5em;
+    }
+
+    .container {
+        margin-top: 50px;
+    }
+
+    .pic {
+        margin-bottom: 10px;
+    }
+
+    #main {
+        margin: 100px 15px;
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 568px) and (max-width: 767px){
+
+    header .navbar {
+        height: 90px;
+    }
+
+    header .container-fluid {
+        padding: 0 !important;
+    }
+    .log {
+        height: 90px;
+    }
+    #cont {
+        margin-top: 10px;
+    }
+    #cont li{
+        font-size: 0.8em;
+    }
+
+    .container {
+        margin-top: 50px;
+    }
+
+    .pic {
+        margin-bottom: 10px;
+    }
+
+    #main {
+        margin: 100px 15px;
+        font-size: 1.8em;
+    }
+
+
+}
+
+/*****ipad display********/
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+
+    .pic {
+        margin: 10px;
+    }
+
+    #main {
+        margin: 50px;
+    }
+
 }

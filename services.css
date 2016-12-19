@@ -1,29 +1,43 @@
-html, body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: url("images/cover_pouch.jpg")no-repeat fixed;
-    background-size: cover;
-    font-family: 'Arvo', serif;
 
-    
-}
 
-header {    
-    background-color: #B55829;
-    height: 130px;
-    width: 100%;
-}
-
-.ban {
-    width: 50%;
-    margin: auto;
-}
-#log {
-    display: block;
-    border: 5px solid white;
-    box-shadow: 5px 5px 20px white;
-    border-radius: 200px;
+.container {
     background-color: white;
+}
+
+
+main h1 {
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 50px;
+
+}
+
+.title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.list {
+    margin:  30px 50px;
+    font-size: 1.3em;
+}
+
+.container .navbar {
+    background-color: white;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+   
+    #inner {
+        margin: 10px;
+    }
+
+    #inner .row {
+        margin: 10px;
+    }
+    #inner .navbar {
+        font-size: 0.9em;
+    }
+
 
 }
